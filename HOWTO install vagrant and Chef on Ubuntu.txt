@@ -1,0 +1,16 @@
+01. apt-get update
+02. apt-get install virtualbox
+03. apt-get install curl
+04. apt-get install libyaml-dev
+05. curl -#L https://get.rvm.io | bash -s stable --ruby
+06. Run "source /usr/local/rvm/scripts/rvm"
+07. Add to .bash_profile "[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session as a function"
+08. gem install vagrant chef
+09. apt-get install git-core
+10. ssh-keygen -t rsa -C "harvey.johal@thisisdare.com"
+11. Add .ssh/id_rsa.pub to Gitlab SSH key list
+12. mkdir ~/Projects; cd ~/Projects; git clone git@gitlab.identification7.com:dare/cookbooks.git
+13. vagrant box add precise64 http://files.vagrantup.com/precise64.box
+14. vagrant init
+15. vim Vagrantfile
+16. vagrant up
